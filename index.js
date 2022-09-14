@@ -20,9 +20,9 @@ function newItem(url, left, bottom){
 
 
 //adding item to inventory
-let inventory = document.createElement('div')
+let inventory
 function newInventory(){
-    
+    inventory = document.createElement('div')
     inventory.style.position = 'fixed'
     inventory.style.bottom = '0px';
     inventory.style.left = '0px'
